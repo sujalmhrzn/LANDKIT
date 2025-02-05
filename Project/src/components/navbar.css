@@ -40,7 +40,7 @@ nav {
 
 .buy-btn:hover {
   background: #1e40af;
-  box-shadow: 0px 4px 8px rgba(22, 28, 45, 0.2); /* Adds a subtle shadow */
-  transform: translateY(-2px); /* Slight lift effect */
+  box-shadow: 0px 4px 8px rgba(22, 28, 45, 0.2); 
+  transform: translateY(-2px);
   transition: box-shadow 0.25s ease, transform 0.25s ease;
 }

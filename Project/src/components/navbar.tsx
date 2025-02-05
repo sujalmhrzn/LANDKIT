@@ -1,5 +1,6 @@
 import React from "react";
 import "./navbar.css";
+import buy from "./buy/buy";
 
 const Navbar: React.FC = () => {
   return (
@@ -21,7 +22,7 @@ const Navbar: React.FC = () => {
           <a href="#">Documentation</a>
         </li>
       </ul>
-      <a href="#" className="buy-btn">
+      <a href="./components/buy/buy.tsx" className="buy-btn">
         Buy now
       </a>
     </nav>
