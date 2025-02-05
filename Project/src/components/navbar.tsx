@@ -1,13 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import "./navbar.css";
-import buy from "./buy/buy";
 
 const Navbar: React.FC = () => {
   return (
     <nav>
-      <a href="#" className="logo">
+      <Link to="/" className="logo">
         Landkit.
-      </a>
+      </Link>
       <ul className="nav-links">
         <li>
           <a href="#">Landings</a>
@@ -22,9 +22,9 @@ const Navbar: React.FC = () => {
           <a href="#">Documentation</a>
         </li>
       </ul>
-      <a href="./components/buy/buy.tsx" className="buy-btn">
+      <Link to="/buy" className="buy-btn">
         Buy now
-      </a>
+      </Link>
     </nav>
   );
 };

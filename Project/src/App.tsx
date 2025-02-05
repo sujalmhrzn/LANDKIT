@@ -1,11 +1,16 @@
-import React, { useState } from "react";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar";
+import Buy from "./components/linkto/buy";
 
 function App() {
   return (
-    <div>
+    <Router>
       <Navbar />
-    </div>
+      <Routes>
+        <Route path="/buy" element={<Buy />} />
+      </Routes>
+    </Router>
   );
 }
 
