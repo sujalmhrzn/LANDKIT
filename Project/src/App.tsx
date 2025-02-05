@@ -17,7 +17,7 @@ function App() {
       <Navbar />
       <Hero />
       <Features />
-      <Partners /> # Partner's Logos
+      <Partners /> # Partners' Logos
       <Contact />
       <Testimonial /> # Carousel
       <Summary />
