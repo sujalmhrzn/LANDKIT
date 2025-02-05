@@ -10,6 +10,7 @@ import Partners from "./components/Partners";
 import Pricing from "./components/Pricing";
 import Summary from "./components/Summary";
 import Testimonial from "./components/Testimonial";
+import Experience from "./components/Experience";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Features />
       <Partners /> # Partners' Logos
       <Contact />
+      <Experience />
       <Testimonial /> # Carousel
       <Summary />
       <Pricing />
