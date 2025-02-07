@@ -1,5 +1,4 @@
-import React from "react";
-import "./navbar.css";
+import React from 'react'
 
 const Navbar: React.FC = () => {
   return (
@@ -28,4 +27,4 @@ const Navbar: React.FC = () => {
   );
 };
 
-export default Navbar;
+export default Navbar
