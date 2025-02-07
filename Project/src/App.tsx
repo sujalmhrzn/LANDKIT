@@ -15,18 +15,18 @@ import Experience from "./components/Experience";
 function App() {
   return (
     <div>
-      <Navbar />
-      <Hero />
-      <Features />
-      <Partners /> # Partners' Logos
-      <Contact />
+      {/* <Navbar />
+      <Hero /> 
+      <Features /> */}
+      <Partners />
+      {/* <Contact /> */}
       <Experience />
-      <Testimonial /> # Carousel
+      <Testimonial />
       <Summary />
-      <Pricing />
+      {/* <Pricing />
       <FAQ />
       <CTA /> # Call-to-Action
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
