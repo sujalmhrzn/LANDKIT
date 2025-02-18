@@ -19,14 +19,14 @@ function App() {
       <Hero /> 
       <Features /> */}
       <Partners />
-      {/* <Contact /> */}
+      <Contact />
       <Experience />
       <Testimonial />
       <Summary />
-      {/* <Pricing />
+      <Pricing />
       <FAQ />
-      <CTA /> # Call-to-Action
-      <Footer /> */}
+      <CTA />
+      <Footer />
     </div>
   );
 }
