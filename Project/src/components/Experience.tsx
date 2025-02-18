@@ -6,24 +6,24 @@ import Code from '../icons/Code'
 
 const Experience = () => {
   return (
-    <Box ml='100px' pl='100px' my='100px' py='100px'>
+    <Box ml='200px' pl='100px' my='50px' py='50px'>
       <HStack mx="auto" overflow="hidden" borderRadius='lg' height='600px'>
         <Flex direction='row' maxW='1300px' justifyContent='start' alignItems='start' mx='auto'>
           <Flex direction='column' mr='50px' pr='50px'>
-            <Heading as='h2' fontSize='30px' py='20px'>We have lots of experience</Heading>
-            <Heading as='h2' fontSize='30px' pb='20px'>building Bootstrap themes.</Heading>
-            <Text as='p' fontSize='20px' pb='20px' mb='20px'>We've built well over a dozen Bootstrap themes and sold tens fo thousands of copies.</Text>
+            <Text fontSize='25px' py='5px' fontWeight='semibold'>We have lots of experience</Text>
+            <Text fontSize='25px' pb='20px' fontWeight='semibold'>building Bootstrap themes.</Text>
+            <Text as='p' fontSize='20px' pb='20px' mb='20px'>We've built well over a dozen Bootstrap themes and sold tens of thousands of copies.</Text>
             <HStack>
               <Loop />
-              <Stack direction='column' mb='20px' ml='20px'>
-                <Heading>Bootstrap users since the begining</Heading>
+              <Stack direction='column' mb='25px' ml='20px'>
+                <Text fontWeight='semibold'>Bootstrap users since the begining</Text>
                 <Text>We've been developing with Boostrap since it was publicly released in 2011.</Text>
               </Stack>
             </HStack>
             <HStack>
               <Code />
               <Stack direction='column' ml='20px'>
-                <Heading>Deep understanding of Bootstrap</Heading>
+                <Text fontWeight='semibold'>Deep understanding of Bootstrap</Text>
                 <Text>We've watched Bootstrap grow up over the years and understand it better than almost anyone.</Text>
               </Stack>
             </HStack>
