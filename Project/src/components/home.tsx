@@ -20,11 +20,11 @@ import image1 from "../assets/img11.png";
 
 const hero = () => {
   return (
-    <Box>
-      <HStack spacing>
+    <Box maxW="1024px" mx="auto" mt={10}>
+      <Center>
         <Box>
           <Heading as="h1">Welcome to Landkit. Develop anything.</Heading>
-          <Text>
+          <Text fontSize="lg" color="gray.500" mt={2}>
             Build a beautiful, modern website with flexible Bootstrap components
             built from scratch.
           </Text>
@@ -41,9 +41,11 @@ const hero = () => {
               View all Pages
             </Button>
             <Button
-              bg="#506690"
+              bg="#E5E7EB"
+              color="#335EEA"
               _hover={{
-                boxShadow: "0px 4px 8px rgba(22, 28, 45, 0.2)",
+                bg: "#D1D5DB",
+                boxShadow: "0px 4px 8px rgba(229, 231, 235, 0.3)",
                 transform: "translateY(-3px)",
               }}
             >
@@ -52,7 +54,7 @@ const hero = () => {
           </ButtonGroup>
         </Box>
         <Image src={image1} alt="My Image" boxSize="400px" />
-      </HStack>
+      </Center>
     </Box>
   );
 };

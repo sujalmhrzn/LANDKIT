@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Buy from "./components/linkto/buy";
 import Hero from "./components/home";
+import Features from "./components/Features";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Router>
         <Navbar />
         <Hero />
+        <Features />
         <Routes>
           <Route path="/buy" element={<Buy />} />
         </Routes>
